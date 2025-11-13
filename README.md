@@ -52,17 +52,18 @@ Make sure Python 3 is installed.
 
 ```sh
 python3 app/analyzer.py
-
 ```
 
 🐳 Docker Setup
 Build Docker Image
-
+```sh
 docker build -t score-analyzer .
+```
 
 Run Docker Container
-
+```sh
 docker run --rm score-analyzer
+```
 
 Expected Output
 
