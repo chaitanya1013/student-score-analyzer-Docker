@@ -22,27 +22,13 @@ This project is fully containerized with Docker and demonstrates **Python develo
 
 ---
 
-## 📁 Project Structure
-
-student-score-analyzer/
-│
-├── app/
-│ ├── analyzer.py # Main Python script
-│ ├── utils.py # Reusable data parsing + logic
-│ └── data.txt # Input dataset
-│
-├── Dockerfile # Docker build instructions
-└── .gitignore # Ignored files
-
----
-
 ## 🧪 Sample Input (data.txt)
 
-Aman,85
-Riya,92
-Karan,76
-Sneha,88
-John,95
+- Aman,85
+- Riya,92
+- Karan,76
+- Sneha,88
+- John,95
 
 ---
 
@@ -70,29 +56,28 @@ Expected Output
 📊 Student Score Analyzer
 🕒 Execution Time: 2025-11-12 11:23:45
 
-Total Students: 5
-Highest Score: 95
-Lowest Score: 76
-Average Score: 87.2
-
+- Total Students: 5
+- Highest Score: 95
+- Lowest Score: 76
+- Average Score: 87.2
 ✔️ Analysis Completed Successfully!
 
 
 🛠 Tools & Technologies Used
-Python 3.12 (slim)
-Docker
-Modular Python programming
-Error handling & data validation
+- Python 3.12 (slim)
+- Docker
+- Modular Python programming
+- Error handling & data validation
 
 🤝 Contribution
-Contributions are welcome!
+- Contributions are welcome!
 If you want to improve the analyzer or convert it to a REST API using Flask, feel free to fork the repo and open a pull request.
 
 📄 License
-This project is open-source and available under the MIT License.
+- This project is open-source and available under the MIT License.
 
 ⭐ Future Enhancements
-Convert to Flask API (/analyze)
-Add database (MySQL/PostgreSQL) with Docker Compose
-Auto CI/CD using GitHub Actions
-Add unit tests (pytest)
+- Convert to Flask API (/analyze)
+- Add database (MySQL/PostgreSQL) with Docker Compose
+- Auto CI/CD using GitHub Actions
+- Add unit tests (pytest)
